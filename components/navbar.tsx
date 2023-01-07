@@ -19,7 +19,7 @@ const Navbar = () => {
   const color = useColorModeValue("black", "white");
   return (
     <>
-      <Box px={4} backdropFilter="auto" backdropBlur="8px" color={'white'}>
+      <Box px={4} backdropFilter="auto" backdropBlur="8px">
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
@@ -43,6 +43,7 @@ const Navbar = () => {
               spacing={4}
               display={{ base: "none", md: "flex" }}
               fontFamily={"Bungee Hairline"}
+              color={"white"}
             >
               <Link href={"/about"}>
                 <Button
@@ -84,7 +85,12 @@ const Navbar = () => {
         </Flex>
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
-            <Stack as={"nav"} spacing={4} fontFamily={"Bungee Hairline"}>
+            <Stack
+              as={"nav"}
+              spacing={4}
+              fontFamily={"Bungee Hairline"}
+              color={"white"}
+            >
               <Link href={"/about"}>
                 <Button
                   color={color}
