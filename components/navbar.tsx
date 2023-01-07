@@ -19,7 +19,7 @@ const Navbar = () => {
   const color = useColorModeValue("black", "white");
   return (
     <>
-      <Box px={4} backdropFilter="auto" backdropBlur="8px">
+      <Box px={4} backdropFilter="auto" backdropBlur="8px" color={'white'}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}

@@ -19,6 +19,7 @@ const Welcoming = () => {
             fontFamily={"Bungee Hairline"}
             fontSize={[20, 20, 30, 50]}
             fontWeight={"extrabold"}
+            color={'white'}
           >
             <AnimatedText
               type="words" // animate words or chars
