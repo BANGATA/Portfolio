@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import Navbar from "./navbar";
 import { motion } from "framer-motion";
+import Footer from "./footer";
 
 const About = () => {
   return (
@@ -210,6 +211,7 @@ const About = () => {
             </Flex>
           </Flex>
         </Flex>
+        <Footer />
       </Flex>
     </>
   );
