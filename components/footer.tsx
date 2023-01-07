@@ -5,7 +5,7 @@ const Footer = () => {
       <Box p={5} backdropFilter="auto" backdropBlur="8px">
         <Flex justifyContent={"center"} alignItems={"center"}>
           <Text
-            fontFamily={"Rubik"}
+            fontFamily={"Bungee Hairline"}
             fontWeight={"bold"}
             fontSize={[14, 16, 20, 20]}
             color={"white"}

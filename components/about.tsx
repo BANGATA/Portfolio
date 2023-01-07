@@ -128,28 +128,40 @@ const About = () => {
                           scale: 1.2,
                         }}
                       >
-                        <Image src={"html.png"} w={[50, 50, 50, 75]} />
+                        <Image
+                          src={"html.png"}
+                          alt="html"
+                          w={[50, 50, 50, 75]}
+                        />
                       </motion.div>
                       <motion.div
                         whileHover={{
                           scale: 1.2,
                         }}
                       >
-                        <Image src={"css.png"} w={[50, 50, 50, 75]} />
+                        <Image src={"css.png"} alt="css" w={[50, 50, 50, 75]} />
                       </motion.div>
                       <motion.div
                         whileHover={{
                           scale: 1.2,
                         }}
                       >
-                        <Image src={"js.png"} w={[50, 50, 50, 75]} />
+                        <Image
+                          src={"js.png"}
+                          alt="javascript"
+                          w={[50, 50, 50, 75]}
+                        />
                       </motion.div>
                       <motion.div
                         whileHover={{
                           scale: 1.2,
                         }}
                       >
-                        <Image src={"ts.png"} w={[50, 50, 50, 75]} />
+                        <Image
+                          src={"ts.png"}
+                          alt="typescript"
+                          w={[50, 50, 50, 75]}
+                        />
                       </motion.div>
                     </HStack>
                     <Text fontFamily={"Nabla"} fontSize={[14, 20, 28, 32]}>
@@ -167,21 +179,33 @@ const About = () => {
                           scale: 1.2,
                         }}
                       >
-                        <Image src={"next.png"} w={[50, 50, 50, 75]} />
+                        <Image
+                          src={"next.png"}
+                          alt="Next.js"
+                          w={[50, 50, 50, 75]}
+                        />
                       </motion.div>
                       <motion.div
                         whileHover={{
                           scale: 1.2,
                         }}
                       >
-                        <Image src={"react.png"} w={[50, 50, 50, 75]} />
+                        <Image
+                          src={"react.png"}
+                          alt="react"
+                          w={[50, 50, 50, 75]}
+                        />
                       </motion.div>
                       <motion.div
                         whileHover={{
                           scale: 1.2,
                         }}
                       >
-                        <Image src={"django.png"} w={[50, 50, 50, 75]} />
+                        <Image
+                          src={"django.png"}
+                          alt="django"
+                          w={[50, 50, 50, 75]}
+                        />
                       </motion.div>
                     </HStack>
                   </Stack>
