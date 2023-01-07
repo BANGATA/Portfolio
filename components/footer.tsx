@@ -10,7 +10,7 @@ const Footer = () => {
             fontSize={[14, 16, 20, 20]}
             color={"white"}
           >
-            Copyright © 2022 - Raditya Herkristito
+            Copyright © 2023 - Raditya Herkristito
           </Text>
         </Flex>
       </Box>

@@ -16,7 +16,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const color = useColorModeValue("black", "white");
+  const color = "white";
   return (
     <>
       <Box px={4} backdropFilter="auto" backdropBlur="8px">
