@@ -12,7 +12,7 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
-import Link from 'next/link'
+import Link from "next/link";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

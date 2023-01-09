@@ -23,7 +23,7 @@ const About = () => {
         //color={"white"}
       >
         <Navbar />
-        <Flex h={"91.5vh"} justify={"center"} align={"center"} color={"white"}>
+        <Flex minH={"91.5vh"} justify={"center"} align={"center"} color={"white"}>
           <Flex
             border={"solid"}
             h={[600, 550, 500, 500]}

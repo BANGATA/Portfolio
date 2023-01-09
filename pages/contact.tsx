@@ -14,7 +14,12 @@ const Contact = () => {
         bgPosition="center"
       >
         <Navbar />
-        <Flex h={"91.5vh"} justify={"center"} align={"center"} color={"white"}>
+        <Flex
+          minH={"91.5vh"}
+          justify={"center"}
+          align={"center"}
+          color={"white"}
+        >
           <Flex
             border={"solid"}
             h={[600, 550, 600, 500]}
@@ -41,7 +46,7 @@ const Contact = () => {
               </Text>
               <Flex>
                 <Stack
-                  spacing={[10, 10, 5, 15, 20]}
+                  spacing={[5, 10, 5, 15, 20]}
                   w={"100%"}
                   justifyContent={"center"}
                   alignItems={"center"}
@@ -67,7 +72,7 @@ const Contact = () => {
                         />
                         <Text
                           color={"white"}
-                          fontSize={["md", "md", "sm", "md"]}
+                          fontSize={["sm", "md", "md", "sm", "md"]}
                         >
                           BANGATA
                         </Text>
@@ -94,7 +99,7 @@ const Contact = () => {
                         />
                         <Text
                           color={"white"}
-                          fontSize={["md", "md", "sm", "md"]}
+                          fontSize={["sm", "md", "md", "sm", "md"]}
                         >
                           atanasiusditya@gmail.com
                         </Text>
@@ -126,7 +131,7 @@ const Contact = () => {
                         />
                         <Text
                           color={"white"}
-                          fontSize={["md", "md", "sm", "md"]}
+                          fontSize={["sm", "md", "md", "sm", "md"]}
                         >
                           Raditya Herkristito
                         </Text>
@@ -156,7 +161,7 @@ const Contact = () => {
                         />
                         <Text
                           color={"white"}
-                          fontSize={["md", "md", "sm", "md"]}
+                          fontSize={["sm", "md", "md", "sm", "md"]}
                         >
                           @raditya_herkristito
                         </Text>

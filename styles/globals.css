@@ -27,15 +27,15 @@ a {
 
 .swiper {
   width: 100%;
-  height: 90vh;
+  height: 91.5vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: beige; */
+  background-color: beige;
 }
 
 .swiper-slide {
-  height: 50vh;
+  height: 91.5vh;
   /* width: 500px; */
   display: flex;
   align-items: center;
