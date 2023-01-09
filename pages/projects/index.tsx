@@ -51,8 +51,8 @@ const Projects = () => {
           >
             {prj.map((i: any) => {
               return (
-                <Atropos activeOffset={40} shadowScale={1.05}>
-                  <WrapItem key={i.id}>
+                <Atropos activeOffset={40} shadowScale={1.05} key={i.id}>
+                  <WrapItem>
                     <Center
                       w="250px"
                       h={["300px", "400px", "400px", "400px"]}
