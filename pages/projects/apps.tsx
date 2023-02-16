@@ -30,7 +30,6 @@ const Apps = () => {
         <Navbar />
         <Flex minH={"90vh"} justify={"center"} align={"center"}>
           <Flex
-            bgColor={"white"}
             borderRadius={25}
             h={"45vh"}
             w={300}
