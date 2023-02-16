@@ -11,9 +11,9 @@ import Logo3 from "../../components/mobile.png";
 
 const Projects = () => {
   const prj = [
-    { id: 1, name: "Mockups", img: Logo1, arah: "/" },
-    { id: 2, name: "Websites", img: Logo2, arah: "/" },
-    { id: 3, name: "Mobile Apps", img: Logo3, arah: "/" },
+    { id: 1, name: "Mockups", img: Logo1, arah: "/projects/mockups" },
+    { id: 2, name: "Websites", img: Logo2, arah: "/projects/websites" },
+    { id: 3, name: "Mobile Apps", img: Logo3, arah: "/projects/apps" },
   ];
   return (
     <>
@@ -74,7 +74,7 @@ const Projects = () => {
                           bg={"white"}
                           borderRadius={10}
                         >
-                          <Image src={i.img} />
+                          <Image src={i.img} alt="Logo" />
                         </Flex>
                         <Flex fontSize={[14, 20, 20, 20]}>{i.name}</Flex>
                         <Link href={i.arah}>
